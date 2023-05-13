@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<title>Dictionary</title>
+	
+  </head>
+
+  <body>
+	<h1>Dictionary</h1>
+	<P>You can add words in the Dictionary and search to find the words you're looking for.<br>
+		Use "save" button or "Enter" key to add a word in the Dictionary. <br>
+		Use "search" button to see if a word is or not in the Dictionary .
+	</P>
+
+	<form>
+		<p>
+			<input id="inWord"   class="form-control form-control-lg"  type="text" placeholder="type a word">
+			<button id="addWordIn"  type="button"   class="btn btn-primary">save</button> <br>
+			
+			<br>
+			<button id="search" onclick="searchWord()"  type="button"   class="btn btn-success">search</button>
+		</p>
+	</form>
+	<div id="display"></div>
+	<div id="list"></div>
+	
+	<script src="dictionar.js"></script>
+  </body>
+</html>
